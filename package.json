@@ -1,0 +1,42 @@
+{
+  "name": "@increase21/rn-toast-alert",
+  "version": "0.1.0",
+  "description": "A customizable toast / alert for React Native with title, body, custom icon, and optional accept/decline action buttons.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "toast",
+    "react native alert",
+    "react native toast",
+    "toast alert",
+    "alert",
+    "notification",
+    "snackbar"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "typescript": "^5.6.3"
+  }
+}
